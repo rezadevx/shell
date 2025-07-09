@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Membersihkan cache RAM..."
+sync; echo 3 > /proc/sys/vm/drop_caches
+echo "✅ RAM cache dibersihkan!"
